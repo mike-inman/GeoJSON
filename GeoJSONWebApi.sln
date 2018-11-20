@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoJSONWebApi", "GeoJSONWebApi\GeoJSONWebApi.csproj", "{6AAF6C0F-9098-486B-AB6D-2C59C7180652}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoJSONWebUI", "GeoJSONWebUI\GeoJSONWebUI.csproj", "{48927B7E-D5DA-477B-97B1-799D0361B3A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWithGeojson", "..\WebApi.Geojson\WebApiWithGeojson\WebApiWithGeojson.csproj", "{2BE91AC1-5D4D-4C1C-A768-C44F9E7C3D57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6AAF6C0F-9098-486B-AB6D-2C59C7180652}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AAF6C0F-9098-486B-AB6D-2C59C7180652}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AAF6C0F-9098-486B-AB6D-2C59C7180652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48927B7E-D5DA-477B-97B1-799D0361B3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48927B7E-D5DA-477B-97B1-799D0361B3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48927B7E-D5DA-477B-97B1-799D0361B3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48927B7E-D5DA-477B-97B1-799D0361B3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE91AC1-5D4D-4C1C-A768-C44F9E7C3D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE91AC1-5D4D-4C1C-A768-C44F9E7C3D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE91AC1-5D4D-4C1C-A768-C44F9E7C3D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE91AC1-5D4D-4C1C-A768-C44F9E7C3D57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
