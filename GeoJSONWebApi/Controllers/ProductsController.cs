@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using GeoJSONWebApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft;
 
 namespace GeoJSONWebApi.Controllers
 {
@@ -13,6 +14,7 @@ namespace GeoJSONWebApi.Controllers
     [Produces("application/json")]
     public class ProductsController : ControllerBase
     {
+        // https://gist.github.com/jpoehls/1424538
 
         Product[] products = new Product[]
         {
@@ -27,6 +29,10 @@ namespace GeoJSONWebApi.Controllers
 
         public IEnumerable<Product> GetAllProducts()
         {
+
+            //return Ok(new { results = products });
+
+            
             return products;
         }
 
